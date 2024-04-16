@@ -1,3 +1,4 @@
+import TodoInput from 'app/components/TodoInput';
 import { styleSheetSerializer } from 'jest-styled-components';
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
@@ -49,6 +50,7 @@ export function HomePage() {
       <Wrapper>
         <Box>
           <Title>할 일</Title>
+          <TodoInput />
           <TodoList>
             <TodoItem>
               <TodoCheck type="checkbox" />
